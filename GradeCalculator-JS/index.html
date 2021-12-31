@@ -1,0 +1,111 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Grade Calculato</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <div class="main-content">
+                    <h1>STUDENT INFO</h1>
+                    <form>
+                        <div>
+                            <label for="name">Name</label>
+                            <input name="name" id="name" type="text">
+                        </div>
+                        <div>
+                            <label for="roll">Roll No.</label>
+                            <input name="roll" id="roll" type="number">
+                        </div>
+                    </form>
+                    <h2>MARKSHEET</h2>
+                    <div class="marks-submit">
+                        <div class="marks-input">
+                            <table>
+                                <thead class="head">
+                                    <tr>
+                                        <th>Subject Name</th>
+                                        <th>Marks</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="body">
+                                    <tr>
+                                        <td>Bangla</td>
+                                        <td><input type="number" name="bangla" id="bangla"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>English</td>
+                                        <td><input type="number" name="english" id="english"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mathematic</td>
+                                        <td><input type="number" name="math" id="math"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sicence</td>
+                                        <td><input type="number" name="science" id="science"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sociology</td>
+                                        <td><input type="number" name="sociology" id="sociology"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Religion</td>
+                                        <td><input type="number" name="religion" id="religion"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="marks-output">
+                            <table>
+                                <thead class="head">
+                                    <tr>
+                                        <th>Grade</th>
+                                        <th>GPA</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="body-output">
+                                    <tr>
+                                        <td id="grade-bng"></td>
+                                        <td id="gpa-bng"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="grade-eng"></td>
+                                        <td id="gpa-eng"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="grade-math"></td>
+                                        <td id="gpa-math"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="grade-science"></td>
+                                        <td id="gpa-science"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="grade-sociology"></td>
+                                        <td id="gpa-sociology"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="grade-religion"></td>
+                                        <td id="gpa-religion"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="total-grade"></td>
+                                        <td id="total-gpa"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="submit-section">
+                        <button type="button" id="submit">Submit</button> <button type="button" id="reset">Reset</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body> 
+</html>

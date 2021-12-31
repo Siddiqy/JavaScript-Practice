@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Book List</title>
+    </head>
+    <body>
+        <form class="center">
+            <div>
+                <h1>Add Book</h1>
+                <div>
+                    <label for="title">Title</label>
+                    <input name="title" id="title" type="text">
+                </div>
+                <div>
+                    <label for="author">Author</label>
+                    <input name="author" id="author" type="text">
+                </div>
+                <div>
+                    <label for="isbn">ISBN</label>
+                    <input name="isbn" id="isbn" type="text">
+                </div>
+                <div>
+                    <label for="price">Price</label>
+                    <input name="price" id="price" type="text">
+                </div>
+                <div>
+                    <button class="submit-btn" type="button">Submit</button>
+                    <small class="tooltip">*Use double click to remove any book info</small>
+                </div>
+            </div>
+        </form>
+        <div class="center">
+            <table class="tableData">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody class="bookList">
+                    
+                </tbody>
+            </table>
+        </div>
+    <script src="main.js"></script>
+    </body> 
+</html>

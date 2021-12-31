@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.center h1 {
+    padding-bottom: 10px;
+}
+
+.toDoInput {
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.toDoAdd {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.toDOList {
+    padding-top: 20px;
+}
+
+.list-style {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}

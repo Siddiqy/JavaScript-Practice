@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+html { font-size: 16px; }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    height: auto;
+    width: 50rem;
+    margin: 100px 0px;
+    padding: 40px;
+    border: 2px solid #52515191;
+    box-shadow: 0px 0px 10px #aaaaaafb;
+    overflow: auto;
+}
+
+.main-content h2 {
+    padding-top: 60px;
+}
+
+#name {
+    height: 32px;
+    width: 240px;
+    padding-left: 5px;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+#roll {
+    height: 32px;
+    width: 240px;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#date {
+    height: 32px;
+    width: 240px;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+
+.marks-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.marks-output h3, .marks-output table {
+    padding-left: 100px;
+}
+
+#bangla, #english, #math, #science, #sociology, #religion {
+    height: 32px;
+    width: 60px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.head tr > th {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #52515191;
+}
+
+.head tr > :last-child, .body tr > :last-child {
+    padding-left: 60px;
+}
+
+.body tr :first-child { padding-top: 15px; }
+
+.body tr :last-child { 
+    margin-top: 15px; 
+    padding-top: 0px;
+}
+
+.body-output tr > td {
+    text-align: center;
+}
+
+#grade-bng, #gpa-bng {
+    padding-top: 20px;
+}
+
+#grade-eng, #gpa-eng, #grade-math, #gpa-math, #grade-science, 
+#gpa-science, #grade-sociology, #gpa-sociology {
+    padding-top: 27px;
+}
+
+#grade-religion, #gpa-religion {
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.body-output tr > :last-child {
+    padding-left: 60px; 
+}
+
+.submit-section {
+    margin-left: 120px;
+}
+
+.download-section {
+    text-align: end;
+}
+
+.download-btn {
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+#submit, #reset {
+    border-style: none;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #000;
+}
+
+#reset { margin-left: 10px; }
+
+#submit {
+    background-color: green;
+    color: #fff;
+}
+
+.border-bottom {
+    border-top: 2px solid #52515191;
+    padding-top: 10px;
+}
